@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(82, 136, 173);
+        }
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 4px 3px 6px 2px rgba(0, 0, 0, 0.419);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 13px;
+        }
+        article > aside {
+            background-color: rgba(0, 0, 0, 0.479);
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Esportes Politicas Tecnologia</p>
+        </section>
+        <section>
+                <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium inventore magni iusto accusamus reprehenderit minima est deserunt, provident, hic possimus fuga aut sunt repellendus, laborum error voluptatibus quisquam quidem. Sint.</p>
+                    <aside>
+                        <p>Artigo escrito por josé da Silva</p>
+                    </aside>
+                    <article>
+
+                    </article>
+                </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Riquelme Dev
+    </footer>
+</body>
+</html>

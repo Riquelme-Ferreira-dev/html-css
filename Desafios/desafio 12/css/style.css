@@ -1,77 +1,57 @@
-*{
+@charset "UTF-8";
+* {
     margin: 0;
     padding: 0;
 }
-
-body {
-    background-color: antiquewhite;
-    /*height: 100vh;
-    background: green url(../imagens/background001.jpg) center center  no-repeat scroll;
-    background: green url(../imagens/background002.jpg) center center  no-repeat scroll;*/
-
-
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
-
-header {
+header{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px 20px 30px 20px;
 }
-h1 {
-    font-size: 70px;
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    /*text-transform: uppercase; deixa tudo maiúsculo*/
 }
 header > p {
-    font-size: 15px;
+    padding-bottom: 50px;
 }
-header > p > a {
+header a, footer a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
+header a:hover, footer a:hover{
+    text-decoration: underline;
+} 
 
-
-div#img1 {
-    background-image: url(../imagens/background001.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: green;
-    background-attachment: scroll;
-}
-div#img2 {
-    background-image: url(../imagens/background002.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: green;
-    background-attachment: scroll;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-main > p {
-    font-size: 40px;
-    background-color: brown;
-    max-width: 400px;
-    margin: 10px;
-    line-height: 50px;
-    padding: 20px;
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 400px;
 }
 
-footer {
-    text-align: center;
-    padding: 5px;
+footer{
     background-color: black;
-    color: aliceblue;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }

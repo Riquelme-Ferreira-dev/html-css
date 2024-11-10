@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*height: 100vh;
+    background: green url(../imagens/background001.jpg) center center  no-repeat scroll;
+    background: green url(../imagens/background002.jpg) center center  no-repeat scroll;*/
+
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+}
+h1 {
+    font-size: 70px;
+}
+header > p {
+    font-size: 15px;
+}
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+div#img1 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-attachment: scroll;
+}
+div#img2 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-attachment: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main > p {
+    font-size: 40px;
+    background-color: brown;
+    max-width: 400px;
+    margin: 10px;
+    line-height: 50px;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: aliceblue;
+}
